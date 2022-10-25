@@ -107,13 +107,13 @@ export default class Details extends React.Component {
               {
                 freteGratis === true && (
                   <p>
-                    <BsTruck />
+                    <BsTruck style={{color:'#00A650'}}/>
                     <span> Frete Grátis</span>
                   </p>)
               }
               <h3 data-testid="product-detail-name">{ title }</h3>
               { precoOriginal > price && (
-                <p>
+                <p id='originalPrice'>
                   R$
                   {Number(precoOriginal).toString().replace('.', ',')}
                 </p>)}

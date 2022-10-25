@@ -65,13 +65,11 @@
 
 #carrinho-de-compras li div {
   margin-top: 15px;
-  /* border: 2px green solid; */
   display: inline;
   width: 100px;
 }
 
 [data-testid="shopping-cart-product-quantity"]{
-  /* color: red; */
   display: inline;
   margin: 0 10px 0 10px;
 }
