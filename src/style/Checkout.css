@@ -1,0 +1,120 @@
+#checkout header {
+  background-color: #fff159de;
+  border-bottom: #afafaf 1px solid;
+  display: flex;
+  height: 100px;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#checkout header a {
+  color: inherit;
+  font-size: 38px;
+}
+
+#checkout header a button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#checkout header a button span{
+  background-color: #67AAF9;
+  position: relative;
+  right: 12px;
+  bottom: 20px;
+  border: 2px #67aaf9 solid;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+#checkout header h3 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#all-products {
+  border: 1px #AFAFAF solid;
+  border-bottom: none;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: auto;
+  background-color: white;
+}
+
+#all-products div {
+ display: flex;
+ width: 70vw;
+ margin: auto;
+ margin-top: 20px;
+ justify-content: space-between;
+}
+
+#all-products p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+}
+
+.buyer-info {
+  text-align: center;
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#checkout form h3 {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#checkout form {
+  background-color: white;
+  width: 80vw;  
+  margin: auto;
+  border:  1px #AFAFAF solid;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buyer-info input {
+  margin-left: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.payment-metod {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.payment-metod input {
+  margin-right: 5px;
+}
+
+form button {
+  border: none;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #0065FC;
+  color: #ffffffe0;
+  font-weight: 600;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
